@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Booking</title>
+</head>
+<body>
+    <h1>Book a Ride</h1>
+    <form method="POST" action="/book_ride">
+        <label for="driver">Driver:</label>
+        <input type="text" name="driver" required><br>
+
+        <label for="origin">Origin:</label>
+        <input type="text" name="origin" required><br>
+
+        <label for="destination">Destination:</label>
+        <input type="text" name="destination" required><br>
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" required><br>
+
+        <label for="time">Time:</label>
+        <input type="time" name="time" required><br>
+
+        <input type="submit" value="Book Ride">
+    </form>
+</body>
+</html>
